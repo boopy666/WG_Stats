@@ -1,0 +1,12 @@
+{
+    "display_name": "WG_Stats",
+    "loading_order": 5,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "css": "style.css",
+    "author": "TomTom",
+    "version": "1.0.0",
+    "homePage": "https://github.com/YourGitHub/WG_Stats",
+    "auto_update": true
+}
