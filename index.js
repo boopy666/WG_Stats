@@ -210,10 +210,8 @@ jQuery(function () {
 
     registerSlashCommand('stats', (_, value) => handleUserInput(value), ['stats'], 'Use commands like /stats weight==200 to update character stats', false, true);
 
-    // Optional: Bind a key or button to toggle the stats panel
-    $(document).on('keydown', (e) => {
-        if (e.key === 's') { // Press 's' to toggle stats panel
-            toggleCharacterStatsPanel();
-        }
+    // Bind a key or button to toggle the stats panel
+    $('.toggle-stats-button').on('click', function() {
+        toggleCharacterStatsPanel();
     });
 });
